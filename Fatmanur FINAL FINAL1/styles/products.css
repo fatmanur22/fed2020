@@ -1,0 +1,389 @@
+/* Variabelen instellen */
+
+:root {
+    --main-font: "Montserrat", sans-serif;
+}
+
+/* Products header */
+
+main div.main-container header {
+    margin-top: 2rem;
+}
+
+/* Products header > Filter div */
+
+main div.main-container header div.filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+}
+
+main div.main-container header div.filter>div:first-of-type {
+    height: 0.9rem;
+}
+
+main div.main-container header div.filter>div:first-of-type {
+    position: relative;
+}
+
+main div.main-container header div.filter>div>a, main div.main-container header div.filter>div>div.link>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+    color: #000000;
+    font-size: 0.9rem;
+    line-height: 1;
+    height: 0.9rem;
+}
+
+main div.main-container header div.filter div span {
+    position: relative;
+    top: 1px;
+    margin-left: 0.1rem;
+}
+
+main div.main-container header div.filter div.product-selector div {
+    position: absolute;
+    z-index: 2;
+    top: 1.7rem;
+    left: -1.5rem;
+    width: 100vw;
+    height: calc(12 * 3.2rem);
+    transition: height 300ms;
+    overflow: hidden;
+}
+
+main div.main-container header div.filter div.product-selector div:not(.active) {
+    height: 0;
+}
+
+main div.main-container header div.filter div.product-selector div a {
+    display: block;
+    text-align: left;
+    padding: 1.25rem 1.5rem;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.7rem;
+    height: 3.2rem;
+    line-height: 1;
+}
+
+main div.main-container header div.filter div.product-selector a.selected {
+    background-color: #f4eddd;
+}
+
+main div.main-container header div.filter div.product-selector a.sub {
+    margin-left: 1rem;
+}
+
+/* Filter selection overlay for that dark filter look */
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: background-color 300ms;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay:not(.active) {
+    background-color: rgba(0, 0, 0, 0);
+    visibility: hidden;
+    transition: background-color 300ms, visibility 0ms 300ms;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay>span {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    position: absolute;
+    left: calc((15vw - 2rem) / 2);
+    top: 50%;
+    color: #ffffff;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+/* Actual expanded filter selection */
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.expanded {
+    overflow: scroll;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #faf9f8;
+    transition: right 450ms;
+    padding: 1.5rem;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay:not(.active) div.expanded {
+    right: -85vw;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.expanded>div {
+    text-align: right;
+    font-size: 2rem;
+    position: relative;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.expanded>div h2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 1rem;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay a {
+    padding: 1.5rem 0;
+    font-size: 1rem;
+    color: #000000;
+    font-family: var(--main-font);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay p {
+    font-size: 0.7rem;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.filter-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.filter-buttons a {
+    display: block;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    width: calc(50% - 0.5rem);
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+main div.main-container header div.filter div:nth-of-type(2) section.filter-overlay div.filter-buttons a:nth-of-type(2) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Products header > View div */
+
+main div.main-container header div.view {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+}
+
+main div.main-container header div.view a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+main div.main-container header div.view div:first-of-type a.active {
+    color: #e50010;
+    border-bottom: 1px solid #e50010;
+    padding-bottom: 0.25rem;
+}
+
+main div.main-container header div.view a:nth-of-type(2) {
+    margin-left: 0.1rem;
+}
+
+main div.main-container header div.view div:nth-of-type(2) {
+    display: flex;
+    height: 1.5rem;
+}
+
+main div.main-container header div.view div:nth-of-type(2) p {
+    height: 100%;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+
+main div.main-container header div.view div:nth-of-type(2) a {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+main div.main-container header div.view div:nth-of-type(2) a.active {
+    color: #e50010;
+}
+
+/* Product items */
+
+main div.main-container div.products ul {
+    padding: 0 1.5rem;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+main div.main-container div.products li.item {
+    max-width: 100%;
+}
+
+main div.main-container div.products:not(.loaded) li.item:nth-of-type(n+5) {
+    display: none;
+}
+
+main div.main-container div.products li.item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+main div.main-container div.products li.item div {
+    position: relative;
+}
+
+main div.main-container div.products li.item div img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+main div.main-container div.products li.item div span.fa-heart {
+    position: absolute;
+    bottom: 2rem;
+    right: 0.8rem;
+    transition: color 500ms;
+}
+
+@keyframes favourite {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+main div.main-container div.products li.item div span.fa-heart.fas {
+    animation: favourite 500ms ease;
+    color: #ff0000;
+}
+
+main div.main-container div.products ul.view-model li.item div img.product {
+    display: none;
+}
+
+main div.main-container div.products ul:not(.view-model) li.item div img.model {
+    display: none;
+}
+
+main div.main-container div.products li.item h2 {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+main div.main-container div.products li.item p {
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+main div.main-container div.products li.item div.colors span {
+    margin-top: 0.25rem;
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 1rem;
+}
+
+main div.main-container div.products li.item div.colors span.black {
+    background-color: #000000;
+}
+
+main div.main-container div.products li.item div.colors span.white {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+main div.main-container div.products li.item div.colors span.grey {
+    background-color: #808080;
+}
+
+main div.main-container div.products li.item div.colors span.beige {
+    background-color: #c3bfb5;
+}
+
+main div.main-container div.products li.item div.colors span.purple {
+    background-color: #800080;
+}
+
+main div.main-container div.products li.item div.colors span.yellow {
+    background-color: #ffff00;
+}
+
+main div.main-container div.products li.item p:nth-of-type(2) {
+    font-size: 0.6rem;
+}
+
+main div.main-container div.products>p {
+    font-family: var(--main-font);
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+main div.main-container div.products div.slider {
+    width: 80%;
+    margin: 1.5rem auto;
+    height: 0.3rem;
+    background: linear-gradient(90deg, #000000 0%, #000000 50%, #d3d3d3 50%);
+}
+
+main div.main-container div.products.loaded div.slider {
+    background: #000000;
+}
+
+main div.main-container div.products a.meer-artikelen {
+    font-size: 0.8rem;
+    width: 80%;
+    background-color: #000000;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+main div.main-container div.products a.meer-artikelen:not(.fas) {
+    display: none;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+main div.main-container div.products a.meer-artikelen.fa-spinner::before {
+    display: inline-block;
+    animation: spin 1.5s infinite linear;
+}
+
+main div.main-container div.products a.meer-artikelen:not(.fa-spinner)::before {
+    content: "Meer artikelen laden";
+    font-family: var(--main-font);
+}
