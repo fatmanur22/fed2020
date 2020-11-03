@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* logo en hamburgermenu */
+nav {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+header {
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2rem 3rem 2rem;
+}
+
+
+h1 {
+    padding-bottom: 1rem;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 3px;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    border-bottom: 1px solid black;
+}
+
+nav div img {
+    width: 3rem;
+    cursor: pointer;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div a {
+    margin: 0 auto;
+}
+
+/* Zorgt ervoor dat de jurken in een grip komen */
+
+/* section en article omdraaien */
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 4rem;
+}
+
+section {
+    margin: 0 auto;
+    text-align: left;
+}
+
+section p {
+    padding: 1rem 0;
+}
+
+/* ontzichbare span die tevoorschijn komt met toggle in JS */
+span {
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.9);
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+
+
+span ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: transform .0s ease;
+}
+
+
+span ul  {
+    transform: translateY(-50vh);
+    transition: transform .5s ease;
+
+}
+
+span a:hover {
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.open {
+    visibility: visible;
+}
+
+.open ul {
+    transform: translate(0);
+}
+
+footer {
+    background-color: #e4e4e4;
+    text-align: center;
+}
+
+footer p {
+    max-width: 40rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 350;
+    margin-bottom: 3rem;
+
+}
+
+button {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+/* responsive */
+@media only screen and (max-width: 1000px) {
+
+    article {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        max-width: 20rem;
+    }
+
+    nav>ul:first-of-type {
+        display: none;
+    }
+
+    ul {
+        flex-direction: column;
+        display: visible;
+    }
+
+    article {
+        grid-template-columns: 1fr;
+    }
+
+    span>p {
+        font-size: 30px;
+    }
+
+    footer p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    footer ul {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+}
+
