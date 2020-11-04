@@ -48,7 +48,7 @@ Zie screenshots van deze versie hieronder:
 ![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-2.png)
 ![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-3.png)
 ![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-4.png)
-![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-5.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-5 .png)
 
 Vervolgens weer een gesprek gehad met Jelmer en nieuwe feedback gehad:
 
