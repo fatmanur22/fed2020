@@ -54,7 +54,7 @@ Vervolgens weer een gesprek gehad met Jelmer en nieuwe feedback gehad:
 
 - Meer producten en dat ze echt naast elkaar staan ipv ruimte ertussen
 - Meer producten laden knop (hoeft niet te werken) OF als je naar de productpagina gaat: knop toevoegen aan winkelmand erbij (hoeft ook niet te werken)
-# - Navigatie links toevoegen, bijv: “nieuwe items, bekijk alle items, kleding, lingerie & nachtkledij, schoenen & accessoires” (paar kopjes dus , niet alles hoeft)
+- Navigatie links toevoegen, bijv: “nieuwe items, bekijk alle items, kleding, lingerie & nachtkledij, schoenen & accessoires” (paar kopjes dus , niet alles hoeft)
 
 - Er is 1 class bij img. in de nav. waarom zou je een class gebruiken? leg dit uit en dan is het okee. (Nou; omdat je een functie aanspreekt in js waarin je de classes toevoegt. Je kan niet een complexe code schrijven in JS als je de styling wilt veranderen van een element, en geen classes gebruiken. Hoe ga je een class toggelen als je geen class mag gebruiken? Edit is de enige manier waarop ik t heb geleerd.)
 

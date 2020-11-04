@@ -211,7 +211,7 @@ button:hover {
 
 /*aparte grid detailpagina*/
 
-.detailpagina {
+.detailpagina>main>article {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -226,7 +226,7 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
 
-    .detailpagina {
+    .detailpagina>main>article {
     grid-template-columns: 1fr 1fr;
 
     }
@@ -239,7 +239,7 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
 
-    .detailpagina {
+    .detailpagina>main>article {
     grid-template-columns: 1fr;
 
     }
