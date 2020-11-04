@@ -59,6 +59,7 @@ nav div img {
     width: 3rem;
     cursor: pointer;
 }
+
 /* je muis veranderd in een wijsvinger zodra je over het logo (die staat in de nav, in een div, als een img) heengaat */
 
 nav div {
@@ -73,13 +74,6 @@ nav div a {
 
 /* Zorgt ervoor dat de jurken in een grid komen */
 
-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding-bottom: 4rem;
-}
-
 section {
     margin: 0 auto;
     text-align: left;
@@ -89,8 +83,45 @@ section p {
     padding: 1rem 0;
 }
 
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 4rem;
+}
+
+article div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+article div h4 {
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+article div ul {
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+article div ul li {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+article div ul li a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+
 /* ontzichbare span die tevoorschijn komt met toggle in JS */
-span {
+header nav div:nth-of-type(2) {
     overflow: hidden;
     background-color: rgba(255, 0, 0, 0.9);
     visibility: hidden;
@@ -103,7 +134,7 @@ span {
     left: 0;
 }
 
-span ul li a {
+header nav div:nth-of-type(2) ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
@@ -114,24 +145,23 @@ span ul li a {
     transition: transform .0s ease;
 }
 
-span ul  {
+header nav div:nth-of-type(2) ul {
     transform: translateY(-50vh);
     transition: transform .5s ease;
-
 }
 
 /* "transform: translateY(-50vh);" betekend dat -50 ViewportHeight hoger is (uit het scherm als het ware) */
 
-div a:hover {
+header nav div:nth-of-type(2) a:hover {
     color: black;
     transition: all 0.5s ease;
 }
 
-.open {
+header nav div.open:nth-of-type(2) {
     visibility: visible;
 }
 
-.open ul {
+header nav div.open:nth-of-type(2) ul {
     transform: translate(0);
 }
 
@@ -184,15 +214,20 @@ button:hover {
 @media only screen and (max-width: 1200px) {
 
     article {
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article>div {
+        display: none;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
     article {
         grid-template-columns: 1fr 1fr;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -214,7 +249,7 @@ button:hover {
         grid-template-columns: 1fr;
     }
 
-    div p {
+    header nav div:nth-of-type(2)>p {
         font-size: 30px;
     }
 
