@@ -80,7 +80,7 @@ section {
 }
 
 section p {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 article {
@@ -187,7 +187,7 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    font-weight: 350;
+    font-weight: 300;
     margin-bottom: 3rem;
 
 }
@@ -209,13 +209,15 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.5);;
 }
 
+/*aparte grid detailpagina*/
+
+.detailpagina {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* responsive */
 
 @media only screen and (max-width: 1200px) {
-
-    article {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     article>div {
         display: none;
@@ -224,6 +226,11 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
 
+    .detailpagina {
+    grid-template-columns: 1fr 1fr;
+
+    }
+
     article {
         grid-template-columns: 1fr 1fr;
     }
@@ -231,6 +238,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .detailpagina {
+    grid-template-columns: 1fr;
+
+    }
 
     header {
         max-width: 20rem;
@@ -242,7 +254,6 @@ button:hover {
 
     ul {
         flex-direction: column;
-        display: visible;
     }
 
     article {

@@ -16,13 +16,13 @@ Na het eindgesprek ben ik meteen begonnen met het toepassen van de feedback, ik 
 
 Binnen een aantal dagen was mijn "nieuwe" code toe aan feedback zodat ik kon inschatten hoe ik verder moest gaan, dus heb ik Jelmer een berichtje gestuurd en hebben wij er samen naar gekeken, screenshots van deze versie zie je hieronder:
 
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-1.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-2.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-3.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-4.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-5.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-6.jpg)
-![screenshots na 1e feedback met Jelmer](images/screenshots/schermafbeelding-feedback1-7.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-1.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-2.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-3.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-4.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-5.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-6.jpg)
+![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-7.jpg)
 
 Hieruit kwam als feedback het volgende:
 
@@ -44,11 +44,11 @@ Na deze feedback gehad te hebben ben ik weer aan de slag gegaan en dit toegepast
 
 Zie screenshots van deze versie hieronder:
 
-![screenshots na 2e feedback met Jelmer](images/screenshots/schermafbeelding-feedback2-1.jpg)
-![screenshots na 2e feedback met Jelmer](images/screenshots/schermafbeelding-feedback2-2.jpg)
-![screenshots na 2e feedback met Jelmer](images/screenshots/schermafbeelding-feedback2-3.jpg)
-![screenshots na 2e feedback met Jelmer](images/screenshots/schermafbeelding-feedback2-4.jpg)
-![screenshots na 2e feedback met Jelmer](images/screenshots/schermafbeelding-feedback2-5.jpg)
+![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-1.jpg)
+![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-2.jpg)
+![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-3.jpg)
+![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-4.jpg)
+![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-5.jpg)
 
 Vervolgens weer een gesprek gehad met Jelmer en nieuwe feedback gehad:
 
@@ -70,16 +70,16 @@ Ook deze feedback weer toegepast natuurlijk, zie resultaat:
 
 -screenshot(s) van je eindresultaat-
 
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind1.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind1.2.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind2.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind3.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind4.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind5.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind6.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind7.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind8.jpg)
-![screenshots eindresultaat](images/screenshots/schermafbeelding-eind9.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind1.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind1.2.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind2.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind3.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind4.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind5.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind6.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind7.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind8.jpg)
+![screenshots eindresultaat](img/screenshots/schermafbeelding-eind9.jpg)
 
 Feedback die ik heb gekregen bij het eindgesprek:
 
@@ -104,7 +104,7 @@ voortgangsfeedback: Webshop laten zien, goed op weg maar dingen zoals de favorie
 
 Deze periode was echt stressvol omdat ik, zoals gepland, vooral bezig ben geweest met js. Aan de ene kant ben ik blij dat ik alles in periodes heb opgesplitst, aan de andere kant ook niet omdat ik fluitend door de eerste weken heen ging en nu dus gestresst ben. Ik weet niet meer zo goed wat ik allemaal aan het doen ben en moet echt sprinten nu, ik heb moeite met de js werkend maken en tijdens de vakantie kon ik docenten niet gemakkelijk bereiken dus dat hielp ook niet echt; ik moet hard aan de slag. Alles werkt en "bestaat" in grote lijnen, maar er moet veel gedaan worden. Wat wel is gelukt is: het selecteren van maten op de productpagina.
 
-![voortgang week 6](images/screenshots/schermafbeelding12.jpg)
+![voortgang week 6](img/screenshots/schermafbeelding12.jpg)
 
 ---
 
@@ -133,7 +133,7 @@ Extra oefenen met css voor de komende periode, met name flexbox. De kikker opdra
 Wat ik nog wel lastig vind is vooral met html bepalen wanneer het juiste moment is om een bepaald element te gebruiken, wanneer kan ik beter een article of een section gebruiken bijvoorbeeld?
 Hoe ik hier meestal uitkom is door 1. vooral op te zoeken wat de verschillen zijn tussen de elementen, dat geeft mij al een antwoord 9/10 keer. Anders probeer ik het gewoon, maar vaak geeft dit mij geen duidelijk antwoord omdat (in het geval van sections en articles bijvoorbeeld). Uiteindelijk is de beste optie om te begrijpen waarvoor welk element bestemd is, en research doen. Vaak pak ik mijn HMTML&CSS boek erbij uit jaar 1.
 
-![voortgang week 3](images/screenshots/schermafbeelding1.jpg)
+![voortgang week 3](img/screenshots/schermafbeelding1.jpg)
 
 ## Intake (week 1)
 
@@ -145,12 +145,12 @@ Hoe ik hier meestal uitkom is door 1. vooral op te zoeken wat de verschillen zij
 
 **Screenshot(s):**
 
-![opdracht](images/Opdr1.jpg)
-![opdracht](images/Opdr2.jpg)
+![opdracht](img/Opdr1.jpg)
+![opdracht](img/Opdr2.jpg)
 
 
 ## Breakdown schets (week 1)
 
-![breakdown](images/breakdown.jpg)
-![breakdown](images/breakdown2.jpg)
+![breakdown](img/breakdown.jpg)
+![breakdown](img/breakdown2.jpg)
 
