@@ -15,13 +15,10 @@ console.log("werkt");
 // hiermee veranderd de visibility van mijn span van hidden naar visible
 
 
-knop.addEventListener('click', toggleTrans); 
+knop.addEventListener('click', toggleTrans);
 console.log("werkt");
-// eventlistener die er voor zorgt dat alsik op var knop (.knoppie in html) klik mijn span de class open krijgt en zo opent
+// eventlistener die er voor zorgt dat als ik op var knop (.knoppie in html) klik mijn span de class open krijgt en zo opent
 
-trans.addEventListener('click', toggleTrans); 
+trans.addEventListener('click', toggleTrans);
 console.log("werkt");
-// eventlistener die er voor zorgt dat alsik op var trans (span in html) klik mijn span de class span krijgt en weer sluit
-
-
-//https://codepen.io/rouws/pen/yLLYJgp code van sonja rouwhorst gekregen bij uitleg vorig jaar, codepen ROUWS is beschikbaar voor iedereen
+// eventlistener: als ik op var trans (span in html) klik, dan haalt hij de class .open weer en sluit dus daardoor

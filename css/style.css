@@ -49,6 +49,8 @@ li a {
     transition: all 0.5s ease;
 }
 
+/* :hover selector wordt gebruikt om elementen te selecteren wanneer je er overheen gaat met je muis */
+
 li a:hover {
     border-bottom: 1px solid black;
 }
@@ -57,6 +59,7 @@ nav div img {
     width: 3rem;
     cursor: pointer;
 }
+/* je muis veranderd in een wijsvinger zodra je over het logo (die staat in de nav, in een div, als een img) heengaat */
 
 nav div {
     display: flex;
@@ -68,12 +71,11 @@ nav div a {
     margin: 0 auto;
 }
 
-/* Zorgt ervoor dat de jurken in een grip komen */
+/* Zorgt ervoor dat de jurken in een grid komen */
 
-/* section en article omdraaien */
 article {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     padding-bottom: 4rem;
 }
@@ -98,9 +100,8 @@ span {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;    
+    left: 0;
 }
-
 
 span ul li a {
     text-decoration: none;
@@ -113,14 +114,15 @@ span ul li a {
     transition: transform .0s ease;
 }
 
-
 span ul  {
     transform: translateY(-50vh);
     transition: transform .5s ease;
 
 }
 
-span a:hover {
+/* "transform: translateY(-50vh);" betekend dat -50 ViewportHeight hoger is (uit het scherm als het ware) */
+
+div a:hover {
     color: black;
     transition: all 0.5s ease;
 }
@@ -132,6 +134,8 @@ span a:hover {
 .open ul {
     transform: translate(0);
 }
+
+/*dus als je dan "transform: translate(0);" doet zorg je ervoor dat hij weer naar 0 gaat, waardoor het menu-linkje naar beneden schuift */
 
 footer {
     background-color: #e4e4e4;
@@ -176,13 +180,20 @@ button:hover {
 }
 
 /* responsive */
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width: 1200px) {
+
+    article {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+@media only screen and (max-width: 900px) {
 
     article {
         grid-template-columns: 1fr 1fr;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
 
@@ -203,7 +214,7 @@ button:hover {
         grid-template-columns: 1fr;
     }
 
-    span>p {
+    div p {
         font-size: 30px;
     }
 
