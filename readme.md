@@ -18,13 +18,13 @@ Na het eindgesprek ben ik meteen begonnen met het toepassen van de feedback, ik 
 
 Binnen een aantal dagen was mijn "nieuwe" code toe aan feedback zodat ik kon inschatten hoe ik verder moest gaan, dus heb ik Jelmer een berichtje gestuurd en hebben wij er samen naar gekeken, screenshots van deze versie zie je hieronder:
 
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-1.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-2.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-3.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-4.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-5.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-6.png)
-![screenshots na 1e feedback met Jelmer](img/screenshots/schermafbeelding-feedback1-7.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-1.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-2.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-3.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-4.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-5.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-6.png)
+![screenshots na 1e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback1-7.png)
 
 Hieruit kwam als feedback het volgende:
 
@@ -44,11 +44,11 @@ Na deze feedback gehad te hebben ben ik weer aan de slag gegaan en dit toegepast
 
 Zie screenshots van deze versie hieronder:
 
-![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-1.png)
-![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-2.png)
-![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-3.png)
-![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-4.png)
-![screenshots na 2e feedback met Jelmer](img/screenshots/schermafbeelding-feedback2-5.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-1.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-2.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-3.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-4.png)
+![screenshots na 2e feedback met Jelmer](img/screenshots/Schermafbeelding-feedback2-5.png)
 
 Vervolgens weer een gesprek gehad met Jelmer en nieuwe feedback gehad:
 
@@ -83,16 +83,16 @@ Al deze feedback is toegepast.
 
 -screenshot(s) van je eindresultaat-
 
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind1.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind1.2.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind2.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind3.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind4.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind5.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind6.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind7.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind8.png)
-![screenshots eindresultaat](img/screenshots/schermafbeelding-eind9.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind1.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind1.2.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind2.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind3.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind4.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind5.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind6.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind7.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind8.png)
+![screenshots eindresultaat](img/screenshots/Schermafbeelding-eind9.png)
 
 Feedback die ik heb gekregen bij het eindgesprek:
 
@@ -117,7 +117,7 @@ voortgangsfeedback: Webshop laten zien, goed op weg maar dingen zoals de favorie
 
 Deze periode was echt stressvol omdat ik, zoals gepland, vooral bezig ben geweest met js. Aan de ene kant ben ik blij dat ik alles in periodes heb opgesplitst, aan de andere kant ook niet omdat ik fluitend door de eerste weken heen ging en nu dus gestresst ben. Ik weet niet meer zo goed wat ik allemaal aan het doen ben en moet echt sprinten nu, ik heb moeite met de js werkend maken en tijdens de vakantie kon ik docenten niet gemakkelijk bereiken dus dat hielp ook niet echt; ik moet hard aan de slag. Alles werkt en "bestaat" in grote lijnen, maar er moet veel gedaan worden. Wat wel is gelukt is: het selecteren van maten op de productpagina.
 
-![voortgang week 6](img/screenshots/schermafbeelding12.png)
+![voortgang week 6](img/screenshots/Schermafbeelding12.png)
 
 ---
 
@@ -128,7 +128,7 @@ Mij verder gefocust op css, dit was best lastig omdat het een tijd geleden was. 
 - Gedachtegang en stappenplan:
 CSS liep helemaal in de mist deze week en ik kreeg het maar niet goed, op een gegeven moment zag mijn website er zo uit als op de screenshot beneden. Deze week heb ik ook geen feedback kunnen ontvangen met de voortgangsgesprekken.
 
-![voortgang week 6](img/screenshots/schermafbeelding-week5.png)
+![voortgang week 6](img/screenshots/Schermafbeelding-week5.png)
 
 ---
 
@@ -141,7 +141,7 @@ Extra oefenen met css voor de komende periode, met name flexbox. De kikker opdra
 Wat ik nog wel lastig vind is vooral met html bepalen wanneer het juiste moment is om een bepaald element te gebruiken, wanneer kan ik beter een article of een section gebruiken bijvoorbeeld?
 Hoe ik hier meestal uitkom is door 1. vooral op te zoeken wat de verschillen zijn tussen de elementen, dat geeft mij al een antwoord 9/10 keer. Anders probeer ik het gewoon, maar vaak geeft dit mij geen duidelijk antwoord omdat (in het geval van sections en articles bijvoorbeeld). Uiteindelijk is de beste optie om te begrijpen waarvoor welk element bestemd is, en research doen. Vaak pak ik mijn HMTML&CSS boek erbij uit jaar 1.
 
-![voortgang week 3](img/screenshots/schermafbeelding1.png)
+![voortgang week 3](img/screenshots/Schermafbeelding1.png)
 
 ## Intake (week 1)
 
@@ -153,12 +153,12 @@ Hoe ik hier meestal uitkom is door 1. vooral op te zoeken wat de verschillen zij
 
 **Screenshot(s):**
 
-![opdracht](img/Opdr1.png)
-![opdracht](img/Opdr2.png)
+![opdracht](img/Opdr1.PNG)
+![opdracht](img/Opdr2.PNG)
 
 
 ## Breakdown schets (week 1)
 
-![breakdown](img/breakdown.png)
-![breakdown](img/breakdown2.png)
+![breakdown](img/breakdown.JPG)
+![breakdown](img/Breakdown2.JPG)
 
