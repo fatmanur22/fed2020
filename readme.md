@@ -58,23 +58,7 @@ Vervolgens weer een gesprek gehad met Jelmer en nieuwe feedback gehad:
 
 - Er is 1 class bij img. in de nav. waarom zou je een class gebruiken? leg dit uit en dan is het okee. (Nou; omdat je een functie aanspreekt in js waarin je de classes toevoegt. Je kan niet een complexe code schrijven in JS als je de styling wilt veranderen van een element, en geen classes gebruiken. Hoe ga je een class toggelen als je geen class mag gebruiken? Edit is de enige manier waarop ik t heb geleerd.)
 
-- Sections en Articles moeten omgedraaid worden:
-In paars.html bijvoorbeeld:
-
-    <main>
-        <section>
-            <article>
-                <img src="img/model.jpeg" alt="jurk paars">
-                <p> Voorkant paarse jurk</p>
-            </article>
-            <article>
-                <img src="img/model.jpeg" alt="jurk paars">
-                <p> Achterkant paarse jurk</p>
-            </article>
-        </section>
-    </main>
-
-Section moet een article zijn en article moet section zijn.
+- Sections en Articles moeten omgedraaid worden, section moet een article zijn en article moet section zijn. (in productpaginas bijv. paars.html)
 
 Ook deze feedback weer toegepast natuurlijk, zie resultaat:
 
