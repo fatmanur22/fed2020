@@ -209,7 +209,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.5);;
 }
 
-/*aparte grid detailpagina*/
+/*aparte grid detailpagina, code van Jelmer*/
 
 .detailpagina>main>article {
     grid-template-columns: 1fr 1fr 1fr;
